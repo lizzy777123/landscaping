@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Evergreen Manchester | Bespoke Landscaping &amp; Garden Design</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&amp;family=Newsreader:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-tint": "#4f6355",
+                    "tertiary-container": "#55341a",
+                    "surface-container": "#efeeea",
+                    "on-surface-variant": "#434843",
+                    "on-primary-fixed-variant": "#384b3e",
+                    "on-primary-fixed": "#0d1f14",
+                    "on-surface": "#1b1c1a",
+                    "outline": "#737873",
+                    "on-tertiary-fixed": "#2f1501",
+                    "tertiary": "#3b1f06",
+                    "on-error": "#ffffff",
+                    "tertiary-fixed": "#ffdcc4",
+                    "primary-fixed-dim": "#b6ccba",
+                    "on-primary-container": "#96ab9b",
+                    "on-tertiary-fixed-variant": "#613f24",
+                    "surface-variant": "#e3e2df",
+                    "on-tertiary-container": "#cb9d7a",
+                    "primary": "#172a1e",
+                    "secondary": "#545f72",
+                    "on-secondary": "#ffffff",
+                    "inverse-on-surface": "#f2f1ed",
+                    "surface-container-highest": "#e3e2df",
+                    "on-secondary-fixed-variant": "#3c475a",
+                    "outline-variant": "#c3c8c1",
+                    "secondary-container": "#d5e0f7",
+                    "secondary-fixed-dim": "#bcc7dd",
+                    "on-secondary-fixed": "#111c2c",
+                    "primary-container": "#2d4033",
+                    "inverse-primary": "#b6ccba",
+                    "inverse-surface": "#30312e",
+                    "error": "#ba1a1a",
+                    "on-background": "#1b1c1a",
+                    "primary-fixed": "#d2e8d6",
+                    "error-container": "#ffdad6",
+                    "surface-dim": "#dbdad6",
+                    "surface-bright": "#faf9f5",
+                    "on-secondary-container": "#586377",
+                    "surface-container-low": "#f5f4f0",
+                    "surface-container-high": "#e9e8e4",
+                    "secondary-fixed": "#d8e3fa",
+                    "surface": "#faf9f5",
+                    "on-error-container": "#93000a",
+                    "tertiary-fixed-dim": "#efbc98",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary": "#ffffff",
+                    "on-tertiary": "#ffffff",
+                    "background": "#faf9f5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-mobile": "16px",
+                    "margin-desktop": "64px",
+                    "gutter": "24px",
+                    "section-gap": "120px",
+                    "container-max": "1280px",
+                    "unit": "8px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Manrope"],
+                    "label-sm": ["Manrope"],
+                    "body-lg": ["Newsreader"],
+                    "display-lg": ["Manrope"],
+                    "headline-lg": ["Manrope"],
+                    "body-md": ["Newsreader"],
+                    "label-md": ["Manrope"]
+            },
+            "fontSize": {
+                    "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.08em", "fontWeight": "700"}],
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "body-md": ["17px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .swatch-hex {
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-white/95 dark:bg-emerald-950/95 backdrop-blur-md shadow-sm border-b border-slate-200 dark:border-emerald-800/50">
+<div class="max-w-7xl mx-auto px-6 lg:px-8 h-20 flex justify-between items-center font-['Manrope'] antialiased tracking-tight">
+<a class="text-xl font-bold tracking-tighter text-emerald-900 dark:text-white" href="#">Evergreen Manchester</a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="#about">About</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="#portfolio">Portfolio</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="#services">Services</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="#process">Process</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-emerald-800 dark:hover:text-emerald-200 transition-colors" href="#booking">Consultation</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-emerald-900 p-2 hover:bg-slate-50 rounded-sm transition-all duration-200" data-icon="chat">chat</button>
+<a class="bg-primary text-on-primary px-6 py-2.5 font-label-md text-label-md active:scale-95 transition-transform duration-150 inline-block" href="#contact">Request Quote</a>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<header class="relative pt-32 pb-20 lg:pt-48 lg:pb-40 overflow-hidden min-h-[80vh] flex items-center">
+<div class="absolute inset-0 z-0">
+<img alt="" class="w-full h-full object-cover brightness-[0.85]" data-alt="Panoramic view of a modern landscaped garden in Manchester with stone pathways and architectural planting at twilight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADUeBTVaV-nAfdfjIBax41IWBHs_23K9zEAw0UyVnpMmqJmXWyqLqz-lE0YL4CaQ9bv0-kRCOh-dhdNR1DvFkIbxaE0yDYZmrGwJD0Ia7bTR1QGEg5L8wSZ9hI2Jj09v-AyH3ds4S2_FdLSuVrAzpWLh97pk6OyZOVhWGe3cDMEhWoaE_sfofIwr3ZfuDm3HhpC9spQIQBiJEqQuyMzY46iN5Jv44HxwMuQtOa-t_qGZnXJXQC2C2HjjxDdTpNV4j_NHpWbZYlfiUu"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background/90 via-black/20 to-black/40"></div>
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10 text-center">
+<span class="font-label-sm text-label-sm text-white/90 uppercase tracking-[0.2em] mb-6 block drop-shadow-md">Established Modernity in Cheshire &amp; Manchester</span>
+<h1 class="font-display-lg text-display-lg text-white max-w-4xl mx-auto mb-8 drop-shadow-lg">Manchester's Premier Landscape Designers</h1>
+<p class="font-body-lg text-body-lg text-white/95 max-w-2xl mx-auto mb-12 italic drop-shadow-md">
+                From structural hardscaping to organic horticultural mastery, we create bespoke outdoor sanctuaries that harmonize Manchester's industrial heritage with contemporary natural beauty.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a class="bg-primary text-on-primary px-10 py-4 font-label-md text-label-md shadow-lg hover:bg-primary/90 transition-all inline-block" href="#contact">Get Your Free Quote</a>
+<a class="border border-white text-white px-10 py-4 font-label-md text-label-md hover:bg-white/10 backdrop-blur-sm transition-all inline-block" href="#portfolio">View Our Portfolio</a>
+</div>
+</div>
+</header>
+<!-- About Our Company -->
+<section class="py-section-gap bg-surface-container-lowest" id="about">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<span class="font-label-sm text-label-sm text-surface-tint uppercase tracking-[0.2em] mb-6 block">Our Story</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-8">Crafting Heritage Landscapes Since 2008</h2>
+<div class="space-y-6 font-body-md text-on-surface-variant">
+<p>Founded in the heart of Manchester, Evergreen was born from a desire to redefine the relationship between our city's rugged industrial history and the tranquil possibilities of private green spaces.</p>
+<p>Our commitment to craftsmanship is rooted in the traditions of North West stonemasons and horticulturalists. Every project we undertake is a tribute to the local heritage—from using reclaimed Yorkstone that echoes our city's streets to selecting native species that thrive in the unique Manchester microclimate.</p>
+<p class="italic text-primary border-l-4 border-surface-tint pl-6 py-2">"We don't just build gardens; we curate outdoor narratives that stand as long-term investments for Manchester's finest homes."</p>
+</div>
+<div class="mt-10 grid grid-cols-2 gap-8 border-t border-outline-variant pt-8">
+<div>
+<span class="block text-3xl font-bold text-primary">500+</span>
+<span class="text-label-sm uppercase tracking-wider text-surface-tint">Projects Delivered</span>
+</div>
+<div>
+<span class="block text-3xl font-bold text-primary">15+</span>
+<span class="text-label-sm uppercase tracking-wider text-surface-tint">Master Craftsmen</span>
+</div>
+</div>
+</div>
+<div class="relative">
+<img alt="Craftsmanship detail" class="w-full aspect-[4/3] object-cover border border-outline shadow-2xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9S-QBishH6GGnIuBZ2w8fNjRk55X6HAbYNwyfFgGNLB5mHt9Fk4g3TTHzD75cCjY1u_QJooJRJs9orLM7JRa9uYpyPJVapMEi6EfSgOswesrTaot-CdzFaSG412-CEAgRVCoPTLI4g8RZ9UzRLzyzsP7UUfSJvURA36QQgK1-f7PpyJAhkY7RZuZ3m5i5J4UP8ULrHsJGYQFzsC0tCXFhkPHyzjaCBmqcw0cRyDiRmUfVb_dJOfa-DmZnXppyBHBSArluUF1zfpNq"/>
+<div class="absolute -bottom-6 -left-6 bg-primary text-white p-6 shadow-xl hidden md:block">
+<p class="font-headline-md mb-1">British Standard</p>
+<p class="font-label-sm opacity-80">Certified Quality Management</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Bento Grid -->
+<section class="py-section-gap max-w-7xl mx-auto px-6 lg:px-8" id="services">
+<div class="mb-16">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Masterful Outdoor Services</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl">Comprehensive landscaping solutions tailored to the unique climate and architectural landscape of Greater Manchester.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Garden Design -->
+<div class="md:col-span-8 bg-surface-container-low border border-outline-variant group overflow-hidden h-[400px] relative">
+<img alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Close up of high-end garden design featuring clean lines, ornamental grasses, and structural slate walls" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9S-QBishH6GGnIuBZ2w8fNjRk55X6HAbYNwyfFgGNLB5mHt9Fk4g3TTHzD75cCjY1u_QJooJRJs9orLM7JRa9uYpyPJVapMEi6EfSgOswesrTaot-CdzFaSG412-CEAgRVCoPTLI4g8RZ9UzRLzyzsP7UUfSJvURA36QQgK1-f7PpyJAhkY7RZuZ3m5i5J4UP8ULrHsJGYQFzsC0tCXFhkPHyzjaCBmqcw0cRyDiRmUfVb_dJOfa-DmZnXppyBHBSArluUF1zfpNq"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex flex-col justify-end p-8">
+<h3 class="font-headline-md text-headline-md text-white mb-2">Garden Design</h3>
+<p class="text-white/80 font-body-md">Architectural vision meets botanical expertise for truly unique spaces.</p>
+</div>
+</div>
+<!-- Paving -->
+<div class="md:col-span-4 bg-surface-container-high border border-outline-variant p-8 flex flex-col justify-between group">
+<div>
+<span class="material-symbols-outlined text-4xl text-surface-tint mb-6" data-icon="grid_view">grid_view</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Paving &amp; Driveways</h3>
+<p class="font-body-md text-on-surface-variant">Expertly laid porcelain, sandstone, and traditional setts designed for Manchester's weather.</p>
+</div>
+<div class="flex gap-2 mt-6">
+<div class="w-8 h-8 bg-[#5a5e5b] swatch-hex" title="Basalt Stone"></div>
+<div class="w-8 h-8 bg-[#c2b2a3] swatch-hex" title="Sandstone"></div>
+<div class="w-8 h-8 bg-[#e3e2df] swatch-hex" title="Light Porcelain"></div>
+</div>
+</div>
+<!-- Artificial Grass -->
+<div class="md:col-span-4 bg-surface-container-high border border-outline-variant p-8 group">
+<span class="material-symbols-outlined text-4xl text-surface-tint mb-6" data-icon="grass">grass</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Artificial Grass</h3>
+<p class="font-body-md text-on-surface-variant mb-8">Premium, pet-friendly synthetic turf that remains lush and green 365 days a year.</p>
+<img alt="" class="w-full h-32 object-cover" data-alt="Neatly manicured high-quality artificial lawn with perfect edge finishing against a modern stone border" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHL0lvkygwpn9ZcT74aWd9jb-m465iAwX3NwqIQoZ9oWc_B52W8ac1SMPMYe3YEyKfnDPCkDzSNa7jkUXbkvoA2pnOUq9K0SnrhlbTwbLEEq5ys3iR5zEvkcR52X7oPSM_RxM2hvtkVnF5YXQvDrttR-xz4yXwvXKxFJq-gGmN6HpUFVKTCwb9jr60zOu3iqg2d5oTJXtu64VoxELUsN91sXpaQN9qcXGjbEzN60eWb532dVEunZvcMva77F54WFreX5wVjSPDpXtM"/>
+</div>
+<!-- Maintenance -->
+<div class="md:col-span-8 bg-surface-container-low border border-outline-variant relative overflow-hidden h-[300px] group">
+<div class="absolute inset-0 flex">
+<div class="w-1/2 p-8 flex flex-col justify-center">
+<h3 class="font-headline-md text-headline-md text-primary mb-2">Ongoing Maintenance</h3>
+<p class="font-body-md text-on-surface-variant">Professional care packages to keep your investment thriving throughout the seasons.</p>
+<a class="mt-4 text-surface-tint font-label-md text-label-md flex items-center gap-2" href="#booking">View Packages <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span></a>
+</div>
+<div class="w-1/2 h-full">
+<img alt="" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A professional gardener carefully pruning ornamental shrubs in a clean modern residential garden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZIRL1pAqsB_MmKMa_HE-kb_zgacgr5idDeKzXSynsWQAfxcziMxXOzii9n7p003Gsgs_sSuASaYYWfrMg3jFYmgvDgxY-4XVmalQbcopYGCjjuEyScYAdGMLCnBcATk2lF5KECMDhddWMt86QwYtsCeAm7wUOmwnpL-BotF2ALoY-re-YiYAkUq7nkFAvnbk0T7x_0hAKUTe1IyMI1Ksc82pVaAS4wzrLs_uD_U5i6Ly8DKTxWBjrXZS7qBhpjais-TztD4PZGG2m"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us / Process -->
+<section class="bg-surface-container py-section-gap" id="process">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-20 items-center">
+<div class="relative">
+<img alt="" class="w-full aspect-[4/5] object-cover border border-outline" data-alt="Traditional Manchester brick house with a newly installed modern driveway and architecturally aligned garden beds" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2Td5Tm16Xov_VdxaSIPTlv_NVicrVzgx7xkV3Pm0OWa7-vxO130tZImIcupQremflP4sJpTBKw1_hhoSKDy4PJFTXBujbv9PSsDYm-b-ivqj13ZxbCH8w4tkYbDsgRKABUY4hDKPdsdxxTptBRSd-Ndtoq-vYHkx6u-3JK99_zWA7mMp6UQuDDxEAGN632payDKNZrHTKr7cpAxjKiWNRdS8TJYoZGm-E1RKoe7SXmk0BKP4hbnidKP5PhA0TG71RNSqv6O1ap5ZN"/>
+<div class="absolute -bottom-8 -right-8 bg-white p-8 shadow-xl border border-slate-200 hidden md:block">
+<p class="font-display-lg text-display-lg text-primary mb-0 leading-none">15+</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">Years Expertise</p>
+</div>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-surface-tint uppercase tracking-[0.2em] mb-6 block">The Evergreen Standard</span>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-8">Uncompromising Quality in Every Square Metre</h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-white" data-icon="location_on">location_on</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary text-lg mb-2">Local Manchester Experts</h4>
+<p class="font-body-md text-on-surface-variant">We understand the specific soil conditions, rainfall patterns, and aesthetic heritage of Greater Manchester and Cheshire.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-white" data-icon="handyman">handyman</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary text-lg mb-2">Master Craftsmanship</h4>
+<p class="font-body-md text-on-surface-variant">Our team consists of certified horticulturists and skilled stonemasons dedicated to precision and longevity.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="flex-shrink-0 w-12 h-12 bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-white" data-icon="verified_user">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-md text-headline-md text-primary text-lg mb-2">Fully Guaranteed</h4>
+<p class="font-body-md text-on-surface-variant">Every project is backed by our comprehensive structural guarantee and public liability insurance for your peace of mind.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Portfolio Gallery -->
+<section class="py-section-gap" id="portfolio">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-4">Recent Projects</h2>
+<p class="font-body-md text-on-surface-variant">Explore our latest work across Didsbury, Altrincham, and the wider Cheshire area.</p>
+</div>
+<button class="hidden md:block font-label-md text-label-md text-surface-tint underline underline-offset-8">View All Projects</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="group cursor-pointer">
+<div class="overflow-hidden mb-4">
+<img alt="" class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Modern geometric garden design in Altrincham featuring composite decking and minimalist white concrete planters" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbGQtKUX1QfV6cUgMdXNiveBdGhMoiNEfs8S___KmnnsCVGqzmF9ndbPlFjYg83mWGlMxfNICMrs9YfvyIcOTu0ZM7-aDtbIdlwwT53sQGzHxS7Wk5EPgRw2aouba17BJj-9xgDckL4r8xslEWNhIh1sZN0aFvX6XLSqqXkeC7aJQh_p2OlhlFm0ndsopRwKuWSX5aB01xJJljZcubtv8s4QaKOSFm50_8jpErda_VZWJ1jHoC3M4Duv2cTh8SS6qE39YfWePP_8fq"/>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-widest">Altrincham Residence</span>
+<h4 class="font-headline-md text-headline-md text-lg mt-1">Minimalist Courtyard</h4>
+</div>
+<div class="group cursor-pointer">
+<div class="overflow-hidden mb-4">
+<img alt="" class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Lush family garden in Wilmslow with large limestone patio area and soft mood lighting for evening entertaining" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwTtfCaJhIGjPtHJSvwCHcmBu3yoylS3g6StsharXgUg5_emSNWvZtpOHG7LJUkd2wQ6NMSMy0VG4WFoKtJfxV5zV3h8QurfJZQMOWhquRdP_5aVtoN-nKXdLofCcO0-e9vyyFSMvB5eATRxheiRLV19r_P4pWqPHe6-Qd53cmPHl_qIMnkAMF4REZMZ7p9rJ8HZPPMyhvW5Bcy_ez3sx4EKS2FPTWATCklkezEgndWmPs2mmDW4Z2L4VLHVHpjyuwgJzo7BmA83ir"/>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-widest">Wilmslow Estate</span>
+<h4 class="font-headline-md text-headline-md text-lg mt-1">Family Entertaining Space</h4>
+</div>
+<div class="group cursor-pointer">
+<div class="overflow-hidden mb-4">
+<img alt="" class="w-full aspect-square object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Front garden renovation in Didsbury featuring a premium slate driveway and traditional wrought iron fencing" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP85UZq0pIPAnPrZLNfjoss_mtmCZzxNYDTDzVSPxyel893nR9SmVgQGY6Vcw3z8NfTmoUxi4Ww7E3qkkn2UzfyZ_QLjeP-3cBxD-9XeTesQpm_GI_HsaO7LONeRCvYQuH78Xp464KdE-3D7X5OovEzpEeGmwrZtMzEcEOe7ZHO2CN2wpVzuUmnFslANH_a6FpFXci2h8xS9f7UfACUYmUEXJIalk1gX5w-MrRzdJWl3w0_ZEPZGaOo36NzbSfav3d8tn49A02GNHe"/>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary uppercase tracking-widest">Didsbury Project</span>
+<h4 class="font-headline-md text-headline-md text-lg mt-1">Heritage Driveway Restoration</h4>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="bg-primary py-section-gap overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg text-white mb-4">Client Experiences</h2>
+<div class="flex justify-center gap-1 text-[#ffdcc4]">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<div class="grid md:grid-cols-2 gap-12">
+<div class="bg-primary-container p-10 relative">
+<span class="material-symbols-outlined text-6xl text-white/10 absolute top-4 right-4" data-icon="format_quote">format_quote</span>
+<p class="font-body-lg text-body-lg text-white italic mb-8">"Evergreen transformed our unusable sloped garden into a stunning multi-level terrace. Their attention to detail on the stone work is world-class. Professional from start to finish."</p>
+<div>
+<p class="font-headline-md text-headline-md text-white text-lg">James Henderson</p>
+<p class="font-label-sm text-label-sm text-white/60">Bowdon, Cheshire</p>
+</div>
+</div>
+<div class="bg-primary-container p-10 relative">
+<span class="material-symbols-outlined text-6xl text-white/10 absolute top-4 right-4" data-icon="format_quote">format_quote</span>
+<p class="font-body-lg text-body-lg text-white italic mb-8">"The best landscaping firm in Manchester. They were reliable, clean, and delivered exactly what was promised on the design. Our new driveway has completely changed the curb appeal."</p>
+<div>
+<p class="font-headline-md text-headline-md text-white text-lg">Sarah Jenkins</p>
+<p class="font-label-sm text-label-sm text-white/60">Chorlton, Manchester</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-section-gap max-w-4xl mx-auto px-6 lg:px-8">
+<h2 class="font-headline-lg text-headline-lg text-primary mb-12 text-center">Frequently Asked Questions</h2>
+<div class="space-y-4">
+<details class="group bg-surface-container-low border border-outline-variant rounded-lg" open="">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-headline-md text-headline-md text-lg">How long does a typical garden renovation take?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 font-body-md text-on-surface-variant">
+                    Small to medium renovations typically take 2-3 weeks. Larger, more complex projects involving structural work or multi-level terracing can take 4-8 weeks. We provide a detailed timeline during the quote stage.
+                </div>
+</details>
+<details class="group bg-surface-container-low border border-outline-variant rounded-lg">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-headline-md text-headline-md text-lg">Do you offer free on-site consultations?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 font-body-md text-on-surface-variant">
+                    Yes, we provide an initial site visit and no-obligation quote for all projects within Greater Manchester and Cheshire. This allows us to understand your vision and assess the site conditions.
+                </div>
+</details>
+<details class="group bg-surface-container-low border border-outline-variant rounded-lg">
+<summary class="flex justify-between items-center p-6 cursor-pointer list-none">
+<span class="font-headline-md text-headline-md text-lg">Is your work guaranteed?</span>
+<span class="material-symbols-outlined transition-transform group-open:rotate-180" data-icon="expand_more">expand_more</span>
+</summary>
+<div class="px-6 pb-6 font-body-md text-on-surface-variant">
+                    Absolutely. All of our structural landscaping work is guaranteed for 5 years, and our paving comes with a manufacturer-backed warranty on materials alongside our installation guarantee.
+                </div>
+</details>
+</div>
+</section>
+<!-- Consultation Booking -->
+<section class="py-section-gap bg-primary text-white" id="booking">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-5 gap-16">
+<div class="lg:col-span-2">
+<span class="font-label-sm text-label-sm text-tertiary-fixed uppercase tracking-[0.2em] mb-6 block">Direct Consultation</span>
+<h2 class="font-headline-lg text-headline-lg mb-6">Book Your On-Site Visit</h2>
+<p class="font-body-md mb-8 text-white/80">Schedule a 45-minute expert appraisal of your outdoor space. We'll discuss your vision, survey the terrain, and provide initial design directions.</p>
+<ul class="space-y-4 font-label-md text-label-md">
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary-fixed" data-icon="check_circle">check_circle</span> On-site terrain assessment</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary-fixed" data-icon="check_circle">check_circle</span> Detailed project estimate</li>
+<li class="flex items-center gap-3"><span class="material-symbols-outlined text-tertiary-fixed" data-icon="check_circle">check_circle</span> Material sample demonstration</li>
+</ul>
+</div>
+<div class="lg:col-span-3 bg-white text-on-surface p-8 rounded-lg shadow-2xl">
+<div class="flex justify-between items-center mb-6">
+<h4 class="font-headline-md text-primary">November 2024</h4>
+<div class="flex gap-2">
+<button class="p-2 hover:bg-slate-100 rounded-full transition-colors"><span class="material-symbols-outlined">chevron_left</span></button>
+<button class="p-2 hover:bg-slate-100 rounded-full transition-colors"><span class="material-symbols-outlined">chevron_right</span></button>
+</div>
+</div>
+<!-- Mock Calendar -->
+<div class="grid grid-cols-7 gap-2 text-center mb-8">
+<div class="font-label-sm text-on-surface-variant py-2">M</div>
+<div class="font-label-sm text-on-surface-variant py-2">T</div>
+<div class="font-label-sm text-on-surface-variant py-2">W</div>
+<div class="font-label-sm text-on-surface-variant py-2">T</div>
+<div class="font-label-sm text-on-surface-variant py-2">F</div>
+<div class="font-label-sm text-on-surface-variant py-2">S</div>
+<div class="font-label-sm text-on-surface-variant py-2">S</div>
+<!-- Empty start -->
+<div class="p-4 text-slate-300">28</div>
+<div class="p-4 text-slate-300">29</div>
+<div class="p-4 text-slate-300">30</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">1</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">2</div>
+<div class="p-4 text-slate-400">3</div>
+<div class="p-4 text-slate-400">4</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">5</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">6</div>
+<div class="p-4 bg-primary text-white font-bold rounded-sm cursor-pointer shadow-md">7</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors relative">8<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-surface-tint rounded-full"></span></div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">9</div>
+<div class="p-4 text-slate-400">10</div>
+<div class="p-4 text-slate-400">11</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">12</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors relative">13<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-surface-tint rounded-full"></span></div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">14</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">15</div>
+<div class="p-4 hover:bg-surface-container rounded-sm cursor-pointer transition-colors">16</div>
+<div class="p-4 text-slate-400">17</div>
+<div class="p-4 text-slate-400">18</div>
+</div>
+<div class="flex flex-wrap gap-3">
+<button class="px-6 py-2 border border-outline-variant text-label-md hover:border-primary hover:text-primary transition-all">09:00 AM</button>
+<button class="px-6 py-2 border border-outline-variant text-label-md hover:border-primary hover:text-primary transition-all">11:30 AM</button>
+<button class="px-6 py-2 border border-primary bg-primary/5 text-primary text-label-md font-bold">02:00 PM</button>
+<button class="px-6 py-2 border border-outline-variant text-label-md hover:border-primary hover:text-primary transition-all">04:30 PM</button>
+</div>
+<a class="w-full mt-8 bg-primary text-on-primary font-label-md py-4 hover:bg-primary/95 transition-all text-center block" href="#contact">Confirm Consultation Time</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Lead Form Section -->
+<section class="py-section-gap bg-surface-container-high" id="contact">
+<div class="max-w-7xl mx-auto px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6">Start Your Garden Transformation</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-8 italic">Ready to redefine your outdoor space? Fill out the form and our design lead will contact you within 24 hours.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-surface-tint" data-icon="call">call</span>
+<span class="font-headline-md text-headline-md text-lg">0161 555 0192</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-surface-tint" data-icon="mail">mail</span>
+<span class="font-headline-md text-headline-md text-lg">hello@evergreenmanchester.com</span>
+</div>
+</div>
+</div>
+<form class="bg-white p-8 border border-outline-variant shadow-sm space-y-6">
+<div class="grid md:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-sm text-label-sm text-primary mb-2 uppercase">Full Name</label>
+<input class="w-full border-0 border-b border-outline focus:ring-0 focus:border-primary bg-transparent py-2" type="text"/>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-primary mb-2 uppercase">Phone Number</label>
+<input class="w-full border-0 border-b border-outline focus:ring-0 focus:border-primary bg-transparent py-2" type="tel"/>
+</div>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-primary mb-2 uppercase">Project Type</label>
+<select class="w-full border-0 border-b border-outline focus:ring-0 focus:border-primary bg-transparent py-2">
+<option>Full Garden Renovation</option>
+<option>Paving &amp; Driveway</option>
+<option>Artificial Grass</option>
+<option>Garden Maintenance</option>
+</select>
+</div>
+<div>
+<label class="block font-label-sm text-label-sm text-primary mb-2 uppercase">Message</label>
+<textarea class="w-full border-0 border-b border-outline focus:ring-0 focus:border-primary bg-transparent py-2 resize-none" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary font-label-md text-label-md py-4 hover:bg-primary/95 transition-colors" type="submit">Submit Request</button>
+</form>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full mt-auto bg-slate-50 dark:bg-emerald-950 border-t border-slate-200 dark:border-emerald-900 font-['Manrope'] text-sm leading-relaxed">
+<div class="flex flex-col md:flex-row justify-between items-start md:items-center px-8 py-12 gap-8 max-w-7xl mx-auto">
+<div class="max-w-xs">
+<span class="text-lg font-bold text-emerald-900 dark:text-white mb-4 block">Evergreen Manchester</span>
+<p class="text-slate-500 dark:text-slate-400">Superior landscaping solutions for Manchester's finest homes and commercial properties.</p>
+</div>
+<div class="flex flex-wrap gap-x-12 gap-y-6">
+<div class="flex flex-col gap-3">
+<span class="font-bold text-emerald-900 dark:text-emerald-50">Services</span>
+<a class="text-slate-500 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-200 underline-offset-4 hover:underline" href="#services">Residential</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-200 underline-offset-4 hover:underline" href="#services">Commercial</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-200 underline-offset-4 hover:underline" href="#services">Maintenance</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-bold text-emerald-900 dark:text-emerald-50">Legal</span>
+<a class="text-slate-500 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-200 underline-offset-4 hover:underline" href="#">Privacy Policy</a>
+<a class="text-slate-500 dark:text-slate-400 hover:text-emerald-600 dark:hover:text-emerald-200 underline-offset-4 hover:underline" href="#">Terms of Service</a>
+</div>
+</div>
+<div class="text-slate-500 dark:text-slate-400 md:text-right">
+<p class="mb-2">© 2024 Evergreen Manchester Landscaping. Established Modernity.</p>
+<div class="flex md:justify-end gap-4">
+<span class="material-symbols-outlined text-lg" data-icon="facebook">social_leaderboard</span>
+<span class="material-symbols-outlined text-lg" data-icon="camera">camera</span>
+</div>
+</div>
+</div>
+</footer>
+<!-- WhatsApp Widget -->
+<a aria-label="Chat on WhatsApp" class="fixed bottom-8 right-8 z-[60] bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform active:scale-95 flex items-center justify-center group" href="https://wa.me/yournumber">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">chat</span>
+<span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs group-hover:ml-3 transition-all duration-300 font-label-md text-label-md">Chat with us</span>
+</a>
+</body></html>
